@@ -15,7 +15,7 @@ const dispense = (num) => {
     }
 }
 
-let rand = genRandNum(1, 20)
+let rand = genRandNum(1, 19)
 
 if(qty.includes("tons")) {
     dispense(rand)
